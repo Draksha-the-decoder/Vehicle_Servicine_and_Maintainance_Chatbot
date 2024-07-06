@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    color: #f5f5f5;
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+}
+
+h1{
+    padding-top: 1vw;
+    font-family: cursive;
+}
+main{display: flex;}
+#chatbox {
+    border: 3px solid rgb(168, 174, 189);
+    padding: 10px 8px 8px 8px;
+    backdrop-filter: blur(10px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 20px;
+    width: 40vw;   
+}
+#chat{
+    height: 63vh;
+    display: block;
+    overflow-y:auto;
+}
+.userText {
+    background-color: #203A43;
+    padding: 5px;
+    border-radius: 12px 0px 12px 12px;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+ .botText {
+    background-color: #203A43;
+    padding: 5px;
+    border-radius: 0px 12px 12px 12px;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
+button:hover {
+    background-color: #0F2027;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#userInput {
+    font-size: 16px;
+    padding: 10px 10px 5px 0px;
+    border: 2px solid rgb(168, 174, 189);
+    border-radius: 7px;
+    margin: auto;
+    display: block;
+}
+
+input {
+    text-align: left;
+    background: transparent;
+    border: none;
+    width: 85%;
+    outline: none;
+    color:white;
+    resize: none;
+}
+
+#submit {
+    color: rgb(168, 170, 173);
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background: #394D61;
+}
+
+
