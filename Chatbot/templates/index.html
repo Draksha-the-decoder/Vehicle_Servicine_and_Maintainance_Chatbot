@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vehicle Servicing and Maintainance ChatBot">
+  <meta name="keywords" content="Chatbot,vehicle,Servicing,Maintainance, Ai assistance">
+  <meta name="author" content="Draksha">
+  <title>Vehicle Servicing Bot</title>
+  <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../static/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+  <header>
+    <h1>Vehicle Servicing Chatbot</h1><br>
+  </header>
+  <main>
+    <section id="chatbox">
+      <p style="font-size:13px; padding-bottom:5px;">based on llama2</p>
+      <div id="chat">
+        <p class="botText">Hi! How can I help you?</p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Enter your query..." required></input>
+        <button id="submit" onclick="getBotResponse()"><i class="fa fa-send" style="font-size:25px"></i></button></label><br>
+      </div>
+      <p style="font-size:13px; padding:5px;">Bot can make mistakes. Please visit your nearest service centre for more info</p>
+    </section>
+  </main>
+</body>
+<script src="../static/index.js"></script>
+</html>
